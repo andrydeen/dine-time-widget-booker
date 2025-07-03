@@ -96,7 +96,7 @@ export const BookingDetails: React.FC<BookingDetailsProps> = ({
         <Popover open={isCalendarOpen} onOpenChange={setIsCalendarOpen}>
           <PopoverTrigger asChild>
             <Button
-              variant="elegant"
+              variant="outline"
               className={cn(
                 "w-full justify-start text-left font-normal",
                 !bookingData.date && "text-muted-foreground"
@@ -132,7 +132,7 @@ export const BookingDetails: React.FC<BookingDetailsProps> = ({
           {timeSlots.map((time) => (
             <Button
               key={time}
-              variant={bookingData.time === time ? "restaurant" : "elegant"}
+              variant={bookingData.time === time ? "restaurant" : "outline"}
               size="sm"
               onClick={() => onUpdateData({ time })}
               className="text-xs"
@@ -150,7 +150,7 @@ export const BookingDetails: React.FC<BookingDetailsProps> = ({
           {durations.map((duration) => (
             <Button
               key={duration.value}
-              variant={bookingData.duration === duration.value ? "restaurant" : "elegant"}
+              variant={bookingData.duration === duration.value ? "restaurant" : "outline"}
               size="sm"
               onClick={() => onUpdateData({ duration: duration.value })}
             >
