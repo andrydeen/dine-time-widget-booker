@@ -38,16 +38,17 @@ All colors MUST be HSL.
     --ring: 15 85% 55%;
 
     /* Restaurant-themed colors */
-    --warm-orange: 15 85% 55%;
-    --warm-orange-light: 20 90% 65%;
+    --warm-orange: 31 100% 50%;
+    --warm-orange-light: 35 100% 55%;
     --warm-brown: 25 40% 35%;
     --cream: 35 95% 85%;
     --sage: 85 25% 65%;
+    --widget-bg: 206 100% 86%;
 
     /* Gradients */
     --gradient-warm: linear-gradient(135deg, hsl(var(--warm-orange)), hsl(var(--warm-orange-light)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--accent)));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(var(--accent) / 0.3));
+    --gradient-card: linear-gradient(145deg, hsl(var(--widget-bg) / 0.9), hsl(var(--widget-bg) / 0.6));
 
     /* Shadows */
     --shadow-warm: 0 10px 30px -10px hsl(var(--warm-orange) / 0.3);
