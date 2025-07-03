@@ -48,7 +48,7 @@ All colors MUST be HSL.
     /* Gradients */
     --gradient-warm: linear-gradient(135deg, hsl(var(--warm-orange)), hsl(var(--warm-orange-light)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--accent)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--widget-bg) / 0.9), hsl(var(--widget-bg) / 0.6));
+    --gradient-card: linear-gradient(145deg, hsl(var(--widget-bg) / 0.7), hsl(var(--widget-bg) / 0.4));
 
     /* Shadows */
     --shadow-warm: 0 10px 30px -10px hsl(var(--warm-orange) / 0.3);
